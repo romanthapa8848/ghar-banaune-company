@@ -1,0 +1,56 @@
+import type React from "react"
+import type { Metadata } from "next"
+import { Jost } from 'next/font/google'
+import "./globals.css"
+
+const jost = Jost({
+  subsets: ["latin"],
+  display: "swap",
+})
+
+export const metadata: Metadata = {
+  title: "Ghar Banaune Company - Nepal's no. 1 home construction company",
+  description:
+    "Nepal's No. 1 residential home construction company - Ghar Banaune Company specializes in building beautiful new homes for families across Nepal. Expert home construction services in Butwal.",
+  keywords:
+    "Nepal home construction, residential construction Nepal, home builders Nepal, new home construction, custom homes Nepal, Butwal home construction",
+  authors: [{ name: "Ghar Banaune Company" }],
+  creator: "Ghar Banaune Company",
+  publisher: "Ghar Banaune Company",
+  metadataBase: new URL("https://www.gharbanaunecompany.com"),
+  alternates: {
+    canonical: "https://www.gharbanaunecompany.com",
+  },
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
+  openGraph: {
+    title: "Ghar Banaune Company - Nepal's No. 1 Home Construction Company",
+    description:
+      "Quality residential home construction services in Butwal, Nepal. Building dream homes with expertise and craftsmanship.",
+    url: "https://www.gharbanaunecompany.com",
+    siteName: "Ghar Banaune Company",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ghar Banaune Company - Nepal's No. 1 Home Construction Company",
+    description: "Premier residential home construction services in Butwal, Nepal",
+  },
+    generator: 'v0.app'
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en">
+      <body className={jost.className}>{children}</body>
+    </html>
+  )
+}

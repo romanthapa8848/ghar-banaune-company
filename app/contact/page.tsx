@@ -89,7 +89,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-medium">Our Location</h3>
-                      <p className="text-muted-foreground">Madhu Marga, Tilottama-6, Rupadehi</p>
+                      <p className="text-muted-foreground">Madhu Marga, Tilottama-6, Rupandehi</p>
                     </div>
                   </div>
 
@@ -109,7 +109,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-medium">Email Address</h3>
-                      <p className="text-muted-foreground">info@gharbanaunecompany.com</p>
+                      <p className="text-muted-foreground">info@gharbanaunecompany.com.np</p>
                     </div>
                   </div>
 

@@ -1,5 +1,4 @@
 import Image from "next/image"
-import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Building2, Home, FileText, Cable as Cube, ArrowRight, Hammer, Users, Award } from "lucide-react"
@@ -244,36 +243,6 @@ export default function ServicesPage() {
                 </CardContent>
               </Card>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-primary-500 py-16 text-white">
-        <div className="container px-4 text-center">
-          <h2 className="mb-6 text-3xl font-bold tracking-tight">Ready to Start Your Project?</h2>
-          <p className="mx-auto mb-8 max-w-2xl text-white/90">
-            Whether you need a new home, renovation, design services, or 3D modeling - we're here to help bring your
-            vision to life.
-          </p>
-          <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
-            <Link href="/contact">
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-white text-white hover:bg-white hover:text-primary-500 bg-transparent"
-              >
-                Get Free Consultation
-              </Button>
-            </Link>
-            <Link href="/team">
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-white text-white hover:bg-white hover:text-primary-500 bg-transparent"
-              >
-                Meet Our Team
-              </Button>
-            </Link>
           </div>
         </div>
       </section>

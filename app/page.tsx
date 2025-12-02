@@ -173,25 +173,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="bg-primary-500 py-16 text-white md:py-24">
-        <div className="container px-4 text-center">
-          <h2 className="mb-6 text-3xl font-semibold tracking-tight sm:text-4xl">Ready to Build Your New Home?</h2>
-          <p className="mx-auto mb-8 max-w-2xl text-white/90">
-            Let's create the perfect new home for your family. Contact us today for a free consultation.
-          </p>
-          <Link href="/contact">
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-white text-white hover:bg-white hover:text-primary-500 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white bg-transparent"
-            >
-              Contact Us Today
-            </Button>
-          </Link>
-        </div>
-      </section>
-
       <Footer />
       <WhatsAppButton />
     </div>

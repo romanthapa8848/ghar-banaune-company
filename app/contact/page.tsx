@@ -119,7 +119,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-medium">Website</h3>
-                      <p className="text-muted-foreground">www.gharbanaunecompany.com</p>
+                      <p className="text-muted-foreground">www.gharbanaunecompany.com.np</p>
                     </div>
                   </div>
 
@@ -149,22 +149,6 @@ export default function ContactPage() {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section className="bg-primary-500 py-12 text-white">
-        <div className="container px-4 text-center">
-          <h2 className="mb-4 text-2xl font-semibold">Ready to Build Your New Home?</h2>
-          <p className="mx-auto mb-6 max-w-2xl text-white/90">
-            Contact Ghar Banaune Company today for professional residential home construction services.
-          </p>
-          <Button
-            size="lg"
-            variant="outline"
-            className="border-white text-white hover:bg-white hover:text-primary-500 bg-transparent"
-          >
-            Contact Us Today
-          </Button>
         </div>
       </section>
 

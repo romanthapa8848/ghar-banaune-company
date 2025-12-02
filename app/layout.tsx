@@ -1,6 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Jost } from 'next/font/google'
+import { Jost } from "next/font/google"
 import "./globals.css"
 
 const jost = Jost({
@@ -17,9 +17,9 @@ export const metadata: Metadata = {
   authors: [{ name: "Ghar Banaune Company" }],
   creator: "Ghar Banaune Company",
   publisher: "Ghar Banaune Company",
-  metadataBase: new URL("https://www.gharbanaunecompany.com"),
+  metadataBase: new URL("https://www.gharbanaunecompany.com.np"),
   alternates: {
-    canonical: "https://www.gharbanaunecompany.com",
+    canonical: "https://www.gharbanaunecompany.com.np",
   },
   icons: {
     icon: "/logo.png",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     title: "Ghar Banaune Company - Nepal's No. 1 Home Construction Company",
     description:
       "Quality residential home construction services in Butwal, Nepal. Building dream homes with expertise and craftsmanship.",
-    url: "https://www.gharbanaunecompany.com",
+    url: "https://www.gharbanaunecompany.com.np",
     siteName: "Ghar Banaune Company",
     type: "website",
     locale: "en_US",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     title: "Ghar Banaune Company - Nepal's No. 1 Home Construction Company",
     description: "Premier residential home construction services in Butwal, Nepal",
   },
-    generator: 'v0.app'
+  generator: "v0.app",
 }
 
 export default function RootLayout({

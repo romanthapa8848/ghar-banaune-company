@@ -89,7 +89,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-medium">Our Location</h3>
-                      <p className="text-muted-foreground">Madhu Marga, Tilottama-6, Rupandehi</p>
+                      <p className="text-muted-foreground">Ganeshpur, Tilottama-6, Rupandehi</p>
                     </div>
                   </div>
 

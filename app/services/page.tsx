@@ -238,7 +238,7 @@ export default function ServicesPage() {
                   <Award className="mx-auto mb-4 h-12 w-12 text-primary-500" />
                   <h3 className="mb-3 text-lg font-semibold">Proven Track Record</h3>
                   <p className="text-muted-foreground">
-                    Successfully completed numerous residential projects across Nepal since 2019.
+                    Successfully completed numerous residential projects across Nepal since 2025.
                   </p>
                 </CardContent>
               </Card>

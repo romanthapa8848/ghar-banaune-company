@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
-import { MapPin, Phone, Mail, Clock, Globe } from "lucide-react"
+import { MapPin, Phone, Mail, Clock } from "lucide-react"
 
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
@@ -89,7 +89,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-medium">Our Location</h3>
-                      <p className="text-muted-foreground">Butwal, Nepal</p>
+                      <p className="text-muted-foreground">Madhu Marga, Tilottama-6, Rupadehi</p>
                     </div>
                   </div>
 
@@ -110,16 +110,6 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-medium">Email Address</h3>
                       <p className="text-muted-foreground">info@gharbanaunecompany.com</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-4">
-                    <div className="rounded-full bg-primary-100 p-2">
-                      <Globe className="h-5 w-5 text-primary-500" />
-                    </div>
-                    <div>
-                      <h3 className="font-medium">Website</h3>
-                      <p className="text-muted-foreground">www.gharbanaunecompany.com.np</p>
                     </div>
                   </div>
 

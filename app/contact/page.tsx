@@ -109,7 +109,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-medium">Email Address</h3>
-                      <p className="text-muted-foreground">info@gharbanaunecompany.com.np</p>
+                      <p className="text-muted-foreground">gharbanaunecompany@gmail.com</p>
                     </div>
                   </div>
 

@@ -27,9 +27,9 @@ export const metadata: Metadata = {
     apple: "/logo.png",
   },
   openGraph: {
-    title: "Ghar Banaune Company - Nepal's No. 1 Home Construction Company",
+    title: "Ghar Banaune Company - No. 1 Home Construction Company",
     description:
-      "Quality residential home construction services in Butwal, Nepal. Building dream homes with expertise and craftsmanship.",
+      "Quality residential home construction services in Butwal and Tilottama. Building dream homes with expertise and craftsmanship.",
     url: "https://www.gharbanaunecompany.com.np",
     siteName: "Ghar Banaune Company",
     type: "website",
@@ -37,8 +37,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ghar Banaune Company - Nepal's No. 1 Home Construction Company",
-    description: "Premier residential home construction services in Butwal, Nepal",
+    title: "Ghar Banaune Company - No. 1 Home Construction Company",
+    description: "Premier residential home construction services in Butwal and Tilottama",
   },
   generator: "v0.app",
 }

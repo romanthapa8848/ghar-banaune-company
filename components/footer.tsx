@@ -11,7 +11,7 @@ export default function Footer() {
             <Link href="/" className="mb-4 flex items-center">
               <Image src="/logo.png" alt="Ghar Banaune Company" width={140} height={50} className="h-12 w-auto" />
             </Link>
-            <p className="mb-4 max-w-xs">Nepal's no. 1 home construction company.</p>
+            <p className="mb-4 max-w-xs">No. 1 home construction company.</p>
             <div className="flex gap-4">
               <Link
                 href="https://www.facebook.com/gharbanaunecompany"

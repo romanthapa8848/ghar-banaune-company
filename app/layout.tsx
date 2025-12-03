@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Ghar Banaune Company specializes in building beautiful new homes for families across Butwal and Tilottama.",
   keywords:
-    "ghar banaune, 2D design, 3D design, construction company in butwal, construction company in tilottama, Nepal home construction, residential construction Nepal, home builders Nepal, new home construction, custom homes Nepal, Butwal home construction",
+    "ghar banaune, 2D design, 3D design, naksa pass, construction company in butwal, construction company in tilottama, Nepal home construction, residential construction Nepal, home builders Nepal, new home construction, custom homes Nepal, Butwal home construction",
   authors: [{ name: "Ghar Banaune Company" }],
   creator: "Ghar Banaune Company",
   publisher: "Ghar Banaune Company",

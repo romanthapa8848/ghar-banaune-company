@@ -11,9 +11,7 @@ export default function Footer() {
             <Link href="/" className="mb-4 flex items-center">
               <Image src="/logo.png" alt="Ghar Banaune Company" width={140} height={50} className="h-12 w-auto" />
             </Link>
-            <p className="mb-4 max-w-xs">
-              Nepal's no. 1 home construction company.
-            </p>
+            <p className="mb-4 max-w-xs">Nepal's no. 1 home construction company.</p>
             <div className="flex gap-4">
               <Link
                 href="https://www.facebook.com/gharbanaunecompany"
@@ -97,26 +95,31 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="mb-4 text-lg font-semibold text-white">Residential Home Construction</h3>
+            <h3 className="mb-4 text-lg font-semibold text-white">Services</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/services/custom-homes" className="hover:text-primary-500 transition-colors">
-                  Custom New Homes
+                <Link href="/services" className="hover:text-primary-500 transition-colors">
+                  Construction
                 </Link>
               </li>
               <li>
-                <Link href="/services/architectural-design" className="hover:text-primary-500 transition-colors">
-                  Architectural Design
+                <Link href="/services" className="hover:text-primary-500 transition-colors">
+                  Structural Analysis
                 </Link>
               </li>
               <li>
-                <Link href="/services/interior-finishing" className="hover:text-primary-500 transition-colors">
-                  Interior Finishing
+                <Link href="/services" className="hover:text-primary-500 transition-colors">
+                  2D Design
                 </Link>
               </li>
               <li>
-                <Link href="/services/consultation" className="hover:text-primary-500 transition-colors">
-                  Home Consultation
+                <Link href="/services" className="hover:text-primary-500 transition-colors">
+                  3D Design
+                </Link>
+              </li>
+              <li>
+                <Link href="/services" className="hover:text-primary-500 transition-colors">
+                  Naksa Pass
                 </Link>
               </li>
             </ul>

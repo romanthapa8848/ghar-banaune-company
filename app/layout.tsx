@@ -1,12 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Jost } from "next/font/google"
 import "./globals.css"
-
-const jost = Jost({
-  subsets: ["latin"],
-  display: "swap",
-})
 
 export const metadata: Metadata = {
   title: "Ghar Banaune Company - Nepal's no. 1 home construction company",
@@ -50,7 +44,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={jost.className}>{children}</body>
+      <body className="font-sans">{children}</body>
     </html>
   )
 }

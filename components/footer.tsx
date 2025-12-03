@@ -123,7 +123,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="mb-4 text-lg font-semibold text-white">Contact Us</h3>
+            <h3 className="mb-4 text-lg font-semibold text-white">Contact</h3>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-5 w-5 text-primary-500" />

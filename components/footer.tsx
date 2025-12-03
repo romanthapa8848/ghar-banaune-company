@@ -12,8 +12,7 @@ export default function Footer() {
               <Image src="/logo.png" alt="Ghar Banaune Company" width={140} height={50} className="h-12 w-auto" />
             </Link>
             <p className="mb-4 max-w-xs">
-              Nepal's premier residential home construction company, building brand new dream homes for families since
-              2025.
+              Nepal's no. 1 home construction company.
             </p>
             <div className="flex gap-4">
               <Link

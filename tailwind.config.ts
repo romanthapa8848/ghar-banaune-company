@@ -19,7 +19,7 @@ const config = {
     },
     extend: {
       fontFamily: {
-        sans: ["Arial", "system-ui", "sans-serif"],
+        sans: ["Jost", "system-ui", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -91,7 +91,7 @@ const config = {
       typography: {
         DEFAULT: {
           css: {
-            fontFamily: "Arial, system-ui, sans-serif",
+            fontFamily: "Jost, system-ui, sans-serif",
           },
         },
       },

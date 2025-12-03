@@ -9,11 +9,11 @@ const jost = Jost({
 })
 
 export const metadata: Metadata = {
-  title: "Ghar Banaune Company - Nepal's no. 1 home construction company",
+  title: "Ghar Banaune Company - No. 1 home construction company",
   description:
-    "Nepal's No. 1 residential home construction company - Ghar Banaune Company specializes in building beautiful new homes for families across Nepal. Expert home construction services in Butwal.",
+    "Ghar Banaune Company specializes in building beautiful new homes for families across Butwal and Tilottama.",
   keywords:
-    "Nepal home construction, residential construction Nepal, home builders Nepal, new home construction, custom homes Nepal, Butwal home construction",
+    "ghar banaune, 2D design, 3D design, construction company in butwal, construction company in tilottama, Nepal home construction, residential construction Nepal, home builders Nepal, new home construction, custom homes Nepal, Butwal home construction",
   authors: [{ name: "Ghar Banaune Company" }],
   creator: "Ghar Banaune Company",
   publisher: "Ghar Banaune Company",

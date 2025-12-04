@@ -11,7 +11,7 @@ const jost = Jost({
 export const metadata: Metadata = {
   title: "Ghar Banaune Company - No. 1 home construction company",
   description:
-    "Ghar Banaune Company specializes in building beautiful new homes for families across Butwal and Tilottama.",
+    "Ghar Banaune Company specializes in building better, faster and safer homes for families across Nepal.",
   keywords:
     "ghar banaune, 2D design, 3D design, naksa pass, construction company in butwal, construction company in tilottama, Nepal home construction, residential construction Nepal, home builders Nepal, new home construction, custom homes Nepal, Butwal home construction",
   authors: [{ name: "Ghar Banaune Company" }],

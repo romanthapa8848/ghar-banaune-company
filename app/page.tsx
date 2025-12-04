@@ -29,8 +29,7 @@ export default function HomePage() {
             Ghar Banaune Company
           </h1>
           <p className="mb-8 max-w-2xl text-lg text-white/90 leading-relaxed">
-            Nepal's premier home construction company. We specialize exclusively in building new homes from the ground
-            up for families across Nepal.
+            No. 1 home construction company.
           </p>
           <div className="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
             <Link href="/services">

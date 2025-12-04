@@ -11,7 +11,7 @@ const jost = Jost({
 export const metadata: Metadata = {
   title: "Ghar Banaune Company - No. 1 home construction company",
   description:
-    "Ghar Banaune Company specializes in building better, faster and safer homes for families across Nepal.",
+    "We help families build their homes better, faster and safer.",
   keywords:
     "ghar banaune, 2D design, 3D design, naksa pass, construction company in butwal, construction company in tilottama, Nepal home construction, residential construction Nepal, home builders Nepal, new home construction, custom homes Nepal, Butwal home construction",
   authors: [{ name: "Ghar Banaune Company" }],
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ghar Banaune Company - No. 1 Home construction company",
     description:
-      "Ghar Banaune Company specializes in building better, faster and safer homes for families across Nepal.",
+      "We help families build their homes better, faster and safer.",
     url: "https://www.gharbanaunecompany.com.np",
     siteName: "Ghar Banaune Company",
     type: "website",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Ghar Banaune Company - No. 1 Home construction company",
-    description: "Ghar Banaune Company specializes in building better, faster and safer homes for families across Nepal.",
+    description: "We help families build their homes better, faster and safer.",
   },
   generator: "v0.app",
 }

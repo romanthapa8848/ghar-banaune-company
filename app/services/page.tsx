@@ -1,7 +1,19 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Building2, Zap, Layers, Cable as Cube, FileText, ArrowRight, Hammer, Users, Award } from "lucide-react"
+import {
+  Building2,
+  Zap,
+  Layers,
+  Cable as Cube,
+  FileText,
+  ArrowRight,
+  Hammer,
+  Users,
+  Award,
+  MessageSquare,
+  PaintBucket,
+} from "lucide-react"
 
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
@@ -20,7 +32,7 @@ export default function ServicesPage() {
             </p>
           </div>
 
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2">
+          <div className="grid gap-8 md:grid-cols-3 lg:grid-cols-3">
             <Card className="overflow-hidden">
               <div className="relative h-48">
                 <Image src="/foundation-structure.jpg" alt="Construction" fill className="object-cover" />
@@ -120,6 +132,46 @@ export default function ServicesPage() {
                 </Button>
               </CardContent>
             </Card>
+
+            <Card className="overflow-hidden">
+              <div className="relative h-48">
+                <Image src="/consultation-meeting.jpg" alt="Consultation" fill className="object-cover" />
+              </div>
+              <CardContent className="p-6">
+                <div className="mb-4 flex items-center gap-3">
+                  <MessageSquare className="h-6 w-6 text-primary-500" />
+                  <h3 className="text-xl font-semibold">Consultation</h3>
+                </div>
+                <p className="mb-4 text-muted-foreground">
+                  Expert consultation and advisory services for your construction project. We guide you through every
+                  step from concept to completion, ensuring your vision becomes reality.
+                </p>
+                <Button variant="outline" className="gap-2 bg-transparent">
+                  Learn More
+                  <ArrowRight className="h-4 w-4" />
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="overflow-hidden">
+              <div className="relative h-48">
+                <Image src="/interior-design-home.jpg" alt="Interior Design" fill className="object-cover" />
+              </div>
+              <CardContent className="p-6">
+                <div className="mb-4 flex items-center gap-3">
+                  <PaintBucket className="h-6 w-6 text-primary-500" />
+                  <h3 className="text-xl font-semibold">Interior Design</h3>
+                </div>
+                <p className="mb-4 text-muted-foreground">
+                  Professional interior design services to bring your home to life. We create beautiful, functional
+                  spaces that reflect your style and enhance your living experience.
+                </p>
+                <Button variant="outline" className="gap-2 bg-transparent">
+                  Learn More
+                  <ArrowRight className="h-4 w-4" />
+                </Button>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
@@ -151,6 +203,16 @@ export default function ServicesPage() {
                     step: 3,
                     title: "Construction Phase",
                     description: "Expert construction execution with quality materials and skilled craftsmen.",
+                  },
+                  {
+                    step: 4,
+                    title: "Consultation",
+                    description: "Expert consultation and advisory services for your construction project.",
+                  },
+                  {
+                    step: 5,
+                    title: "Interior Design",
+                    description: "Professional interior design services to bring your home to life.",
                   },
                 ].map((item) => (
                   <div key={item.step} className="relative grid gap-2 pl-16">

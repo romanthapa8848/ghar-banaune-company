@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { CheckCircle, Clock, Home, Users, ArrowRight, Building, PaintBucket } from "lucide-react"
+import { CheckCircle, Clock, Home, Users, ArrowRight, Building, MessageSquare, PaintBucket } from "lucide-react"
 
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
@@ -60,23 +60,22 @@ export default function HomePage() {
           <div className="mb-12 text-center">
             <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-primary-100 px-4 py-2 text-sm font-medium text-primary-700">
               <Home className="h-4 w-4" />
-              New Home Construction
+              Our Core Services
             </div>
-            <h2 className="mb-2 text-3xl font-semibold tracking-tight sm:text-4xl">What We Build</h2>
+            <h2 className="mb-2 text-3xl font-semibold tracking-tight sm:text-4xl">What We Offer</h2>
             <p className="mx-auto max-w-2xl text-muted-foreground">
-              We focus exclusively on building brand new homes from foundation to finish, creating dream homes for
-              families across Nepal.
+              Comprehensive construction and design services tailored to build your dream home.
             </p>
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <Card className="border-0 shadow-lg transition-all hover:shadow-xl">
               <CardContent className="p-6">
-                <Home className="mb-4 h-12 w-12 text-primary-500" />
-                <h3 className="mb-2 text-xl font-semibold">Custom Home Construction</h3>
+                <Building className="mb-4 h-12 w-12 text-primary-500" />
+                <h3 className="mb-2 text-xl font-semibold">Construction</h3>
                 <p className="text-muted-foreground">
-                  Build your dream home from scratch with our custom home construction services, designed specifically
-                  for your family's needs and lifestyle.
+                  Complete construction services from foundation to finishing with precision, quality materials, and
+                  modern techniques.
                 </p>
               </CardContent>
             </Card>
@@ -84,10 +83,43 @@ export default function HomePage() {
             <Card className="border-0 shadow-lg transition-all hover:shadow-xl">
               <CardContent className="p-6">
                 <Building className="mb-4 h-12 w-12 text-primary-500" />
-                <h3 className="mb-2 text-xl font-semibold">Architectural Design</h3>
+                <h3 className="mb-2 text-xl font-semibold">Structural Analysis</h3>
                 <p className="text-muted-foreground">
-                  Our expert architects create beautiful, functional home designs that maximize space and complement
-                  Nepal's landscape and climate.
+                  Professional structural analysis and engineering assessments ensuring all designs meet safety codes
+                  and building standards.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg transition-all hover:shadow-xl">
+              <CardContent className="p-6">
+                <Building className="mb-4 h-12 w-12 text-primary-500" />
+                <h3 className="mb-2 text-xl font-semibold">2D Design</h3>
+                <p className="text-muted-foreground">
+                  Detailed 2D architectural drawings and floor plans that clearly communicate your project design to all
+                  stakeholders.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg transition-all hover:shadow-xl">
+              <CardContent className="p-6">
+                <Building className="mb-4 h-12 w-12 text-primary-500" />
+                <h3 className="mb-2 text-xl font-semibold">3D Design</h3>
+                <p className="text-muted-foreground">
+                  Advanced 3D modeling and visualization services for realistic renderings and virtual walkthroughs of
+                  your project.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg transition-all hover:shadow-xl">
+              <CardContent className="p-6">
+                <MessageSquare className="mb-4 h-12 w-12 text-primary-500" />
+                <h3 className="mb-2 text-xl font-semibold">Consultation</h3>
+                <p className="text-muted-foreground">
+                  Expert consultation and advisory services guiding you through every step from concept to completion of
+                  your project.
                 </p>
               </CardContent>
             </Card>
@@ -95,10 +127,10 @@ export default function HomePage() {
             <Card className="border-0 shadow-lg transition-all hover:shadow-xl">
               <CardContent className="p-6">
                 <PaintBucket className="mb-4 h-12 w-12 text-primary-500" />
-                <h3 className="mb-2 text-xl font-semibold">Interior Finishing</h3>
+                <h3 className="mb-2 text-xl font-semibold">Interior Design</h3>
                 <p className="text-muted-foreground">
-                  Complete interior finishing services to make your new home move-in ready, from flooring and paint to
-                  fixtures and final details.
+                  Professional interior design services creating beautiful, functional spaces that reflect your style
+                  and enhance living.
                 </p>
               </CardContent>
             </Card>

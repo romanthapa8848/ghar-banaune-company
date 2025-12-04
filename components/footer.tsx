@@ -122,6 +122,16 @@ export default function Footer() {
                   Naksa Pass
                 </Link>
               </li>
+              <li>
+                <Link href="/services" className="hover:text-primary-500 transition-colors">
+                  Consultation
+                </Link>
+              </li>
+              <li>
+                <Link href="/services" className="hover:text-primary-500 transition-colors">
+                  Interior Design
+                </Link>
+              </li>
             </ul>
           </div>
 

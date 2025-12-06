@@ -33,6 +33,7 @@ export default function ServicesPage() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-3 lg:grid-cols-3">
+            {/* Construction - Position 1 */}
             <Card className="overflow-hidden">
               <div className="relative h-48">
                 <Image src="/foundation-structure.jpg" alt="Construction" fill className="object-cover" />
@@ -53,86 +54,7 @@ export default function ServicesPage() {
               </CardContent>
             </Card>
 
-            <Card className="overflow-hidden">
-              <div className="relative h-48">
-                <Image src="/wall-construction.jpg" alt="Structural Analysis" fill className="object-cover" />
-              </div>
-              <CardContent className="p-6">
-                <div className="mb-4 flex items-center gap-3">
-                  <Zap className="h-6 w-6 text-primary-500" />
-                  <h3 className="text-xl font-semibold">Structural Analysis</h3>
-                </div>
-                <p className="mb-4 text-muted-foreground">
-                  Professional structural analysis and engineering assessments. We ensure all designs meet safety codes
-                  and building standards for secure, long-lasting constructions.
-                </p>
-                <Button variant="outline" className="gap-2 bg-transparent">
-                  Learn More
-                  <ArrowRight className="h-4 w-4" />
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card className="overflow-hidden">
-              <div className="relative h-48">
-                <Image src="/2d-design-blueprint-architecture.jpg" alt="2D Design" fill className="object-cover" />
-              </div>
-              <CardContent className="p-6">
-                <div className="mb-4 flex items-center gap-3">
-                  <Layers className="h-6 w-6 text-primary-500" />
-                  <h3 className="text-xl font-semibold">2D Design</h3>
-                </div>
-                <p className="mb-4 text-muted-foreground">
-                  Detailed 2D architectural drawings and floor plans. We create precise technical drawings that clearly
-                  communicate your project design to all stakeholders and construction teams.
-                </p>
-                <Button variant="outline" className="gap-2 bg-transparent">
-                  Learn More
-                  <ArrowRight className="h-4 w-4" />
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card className="overflow-hidden">
-              <div className="relative h-48">
-                <Image src="/3d-model-design-visualization.jpg" alt="3D Design" fill className="object-cover" />
-              </div>
-              <CardContent className="p-6">
-                <div className="mb-4 flex items-center gap-3">
-                  <Cube className="h-6 w-6 text-primary-500" />
-                  <h3 className="text-xl font-semibold">3D Design</h3>
-                </div>
-                <p className="mb-4 text-muted-foreground">
-                  Advanced 3D modeling and visualization services. Visualize your project before construction with
-                  realistic renderings and virtual walkthroughs to perfect your design.
-                </p>
-                <Button variant="outline" className="gap-2 bg-transparent">
-                  Learn More
-                  <ArrowRight className="h-4 w-4" />
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card className="overflow-hidden">
-              <div className="relative h-48">
-                <Image src="/naksa-pass-document-approval.jpg" alt="Naksa Pass" fill className="object-cover" />
-              </div>
-              <CardContent className="p-6">
-                <div className="mb-4 flex items-center gap-3">
-                  <FileText className="h-6 w-6 text-primary-500" />
-                  <h3 className="text-xl font-semibold">Naksa Pass</h3>
-                </div>
-                <p className="mb-4 text-muted-foreground">
-                  Complete naksa (building plan) preparation and municipal approval services. We handle all government
-                  approvals and permits required for your construction project.
-                </p>
-                <Button variant="outline" className="gap-2 bg-transparent">
-                  Learn More
-                  <ArrowRight className="h-4 w-4" />
-                </Button>
-              </CardContent>
-            </Card>
-
+            {/* Consultation - Position 2 */}
             <Card className="overflow-hidden">
               <div className="relative h-48">
                 <Image src="/consultation-meeting.jpg" alt="Consultation" fill className="object-cover" />
@@ -153,6 +75,28 @@ export default function ServicesPage() {
               </CardContent>
             </Card>
 
+            {/* Structural Analysis - Position 3 */}
+            <Card className="overflow-hidden">
+              <div className="relative h-48">
+                <Image src="/wall-construction.jpg" alt="Structural Analysis" fill className="object-cover" />
+              </div>
+              <CardContent className="p-6">
+                <div className="mb-4 flex items-center gap-3">
+                  <Zap className="h-6 w-6 text-primary-500" />
+                  <h3 className="text-xl font-semibold">Structural Analysis</h3>
+                </div>
+                <p className="mb-4 text-muted-foreground">
+                  Professional structural analysis and engineering assessments. We ensure all designs meet safety codes
+                  and building standards for secure, long-lasting constructions.
+                </p>
+                <Button variant="outline" className="gap-2 bg-transparent">
+                  Learn More
+                  <ArrowRight className="h-4 w-4" />
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* Interior Design - Position 4 */}
             <Card className="overflow-hidden">
               <div className="relative h-48">
                 <Image src="/interior-design-home.jpg" alt="Interior Design" fill className="object-cover" />
@@ -163,8 +107,71 @@ export default function ServicesPage() {
                   <h3 className="text-xl font-semibold">Interior Design</h3>
                 </div>
                 <p className="mb-4 text-muted-foreground">
-                  Professional interior design services to bring your home to life. We create beautiful, functional
-                  spaces that reflect your style and enhance your living experience.
+                  Professional interior design services creating beautiful, functional spaces. We design interiors that
+                  reflect your style and enhance your living experience with elegance and comfort.
+                </p>
+                <Button variant="outline" className="gap-2 bg-transparent">
+                  Learn More
+                  <ArrowRight className="h-4 w-4" />
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* 2D Design - Position 5 */}
+            <Card className="overflow-hidden">
+              <div className="relative h-48">
+                <Image src="/2d-design-blueprint-architecture.jpg" alt="2D Design" fill className="object-cover" />
+              </div>
+              <CardContent className="p-6">
+                <div className="mb-4 flex items-center gap-3">
+                  <Layers className="h-6 w-6 text-primary-500" />
+                  <h3 className="text-xl font-semibold">2D Design</h3>
+                </div>
+                <p className="mb-4 text-muted-foreground">
+                  Detailed 2D architectural drawings and floor plans. We create precise technical drawings that clearly
+                  communicate your project design to all stakeholders and construction teams.
+                </p>
+                <Button variant="outline" className="gap-2 bg-transparent">
+                  Learn More
+                  <ArrowRight className="h-4 w-4" />
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* 3D Design - Position 6 */}
+            <Card className="overflow-hidden">
+              <div className="relative h-48">
+                <Image src="/3d-model-design-visualization.jpg" alt="3D Design" fill className="object-cover" />
+              </div>
+              <CardContent className="p-6">
+                <div className="mb-4 flex items-center gap-3">
+                  <Cube className="h-6 w-6 text-primary-500" />
+                  <h3 className="text-xl font-semibold">3D Design</h3>
+                </div>
+                <p className="mb-4 text-muted-foreground">
+                  Advanced 3D modeling and visualization services. Visualize your project before construction with
+                  realistic renderings and virtual walkthroughs to perfect your design.
+                </p>
+                <Button variant="outline" className="gap-2 bg-transparent">
+                  Learn More
+                  <ArrowRight className="h-4 w-4" />
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* Naksa Pass - Position 7 */}
+            <Card className="overflow-hidden">
+              <div className="relative h-48">
+                <Image src="/naksa-pass-document-approval.jpg" alt="Naksa Pass" fill className="object-cover" />
+              </div>
+              <CardContent className="p-6">
+                <div className="mb-4 flex items-center gap-3">
+                  <FileText className="h-6 w-6 text-primary-500" />
+                  <h3 className="text-xl font-semibold">Naksa Pass</h3>
+                </div>
+                <p className="mb-4 text-muted-foreground">
+                  Complete naksa (building plan) preparation and municipal approval services. We handle all government
+                  approvals and permits required for your construction project.
                 </p>
                 <Button variant="outline" className="gap-2 bg-transparent">
                   Learn More

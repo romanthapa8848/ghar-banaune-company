@@ -28,9 +28,7 @@ export default function HomePage() {
           <h1 className="mb-6 text-4xl font-semibold tracking-tight text-white sm:text-5xl md:text-6xl text-balance">
             Ghar Banaune Company
           </h1>
-          <p className="mb-8 max-w-2xl text-lg text-white/90 leading-relaxed">
-            No. 1 home construction company.
-          </p>
+          <p className="mb-8 max-w-2xl text-lg text-white/90 leading-relaxed">No. 1 home construction company.</p>
           <div className="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
             <Link href="/services">
               <Button
@@ -81,11 +79,33 @@ export default function HomePage() {
 
             <Card className="border-0 shadow-lg transition-all hover:shadow-xl">
               <CardContent className="p-6">
+                <MessageSquare className="mb-4 h-12 w-12 text-primary-500" />
+                <h3 className="mb-2 text-xl font-semibold">Consultation</h3>
+                <p className="text-muted-foreground">
+                  Expert consultation and advisory services guiding you through every step from concept to completion of
+                  your project.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg transition-all hover:shadow-xl">
+              <CardContent className="p-6">
                 <Building className="mb-4 h-12 w-12 text-primary-500" />
                 <h3 className="mb-2 text-xl font-semibold">Structural Analysis</h3>
                 <p className="text-muted-foreground">
                   Professional structural analysis and engineering assessments ensuring all designs meet safety codes
                   and building standards.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg transition-all hover:shadow-xl">
+              <CardContent className="p-6">
+                <PaintBucket className="mb-4 h-12 w-12 text-primary-500" />
+                <h3 className="mb-2 text-xl font-semibold">Interior Design</h3>
+                <p className="text-muted-foreground">
+                  Professional interior design services creating beautiful, functional spaces that reflect your style
+                  and enhance living.
                 </p>
               </CardContent>
             </Card>
@@ -108,28 +128,6 @@ export default function HomePage() {
                 <p className="text-muted-foreground">
                   Advanced 3D modeling and visualization services for realistic renderings and virtual walkthroughs of
                   your project.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-0 shadow-lg transition-all hover:shadow-xl">
-              <CardContent className="p-6">
-                <MessageSquare className="mb-4 h-12 w-12 text-primary-500" />
-                <h3 className="mb-2 text-xl font-semibold">Consultation</h3>
-                <p className="text-muted-foreground">
-                  Expert consultation and advisory services guiding you through every step from concept to completion of
-                  your project.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-0 shadow-lg transition-all hover:shadow-xl">
-              <CardContent className="p-6">
-                <PaintBucket className="mb-4 h-12 w-12 text-primary-500" />
-                <h3 className="mb-2 text-xl font-semibold">Interior Design</h3>
-                <p className="text-muted-foreground">
-                  Professional interior design services creating beautiful, functional spaces that reflect your style
-                  and enhance living.
                 </p>
               </CardContent>
             </Card>

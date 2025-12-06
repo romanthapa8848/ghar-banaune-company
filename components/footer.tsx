@@ -104,7 +104,17 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/services" className="hover:text-primary-500 transition-colors">
+                  Consultation
+                </Link>
+              </li>
+              <li>
+                <Link href="/services" className="hover:text-primary-500 transition-colors">
                   Structural Analysis
+                </Link>
+              </li>
+              <li>
+                <Link href="/services" className="hover:text-primary-500 transition-colors">
+                  Interior Design
                 </Link>
               </li>
               <li>
@@ -120,16 +130,6 @@ export default function Footer() {
               <li>
                 <Link href="/services" className="hover:text-primary-500 transition-colors">
                   Naksa Pass
-                </Link>
-              </li>
-              <li>
-                <Link href="/services" className="hover:text-primary-500 transition-colors">
-                  Consultation
-                </Link>
-              </li>
-              <li>
-                <Link href="/services" className="hover:text-primary-500 transition-colors">
-                  Interior Design
                 </Link>
               </li>
             </ul>

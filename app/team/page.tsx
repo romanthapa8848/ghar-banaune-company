@@ -71,6 +71,93 @@ export default function TeamPage() {
                   </div>
                 </Card>
               </div>
+
+              {/* Asmita Pokhrel Section */}
+              <div className="mb-12">
+                <Card className="overflow-hidden shadow-xl max-w-2xl mx-auto">
+                  <div className="grid gap-6 md:grid-cols-1">
+                    <div className="relative h-80">
+                      <Image
+                        src="/asmita-pokhrel.jpg"
+                        alt="Asmita Pokhrel - Civil Engineer"
+                        fill
+                        className="object-contain bg-slate-50"
+                      />
+                    </div>
+                    <CardContent className="p-6">
+                      <div className="mb-4 text-center">
+                        <h3 className="mb-2 text-3xl font-bold">Asmita Pokhrel</h3>
+                        <p className="text-xl text-primary-500 font-semibold">Civil Engineer</p>
+                      </div>
+
+                      <p className="mb-4 text-muted-foreground text-center leading-relaxed">
+                        Asmita Pokhrel brings expertise in structural design and construction management to ensure every
+                        project meets the highest engineering standards and safety requirements.
+                      </p>
+                    </CardContent>
+                  </div>
+                </Card>
+              </div>
+            </div>
+          </div>
+
+          {/* Team Gallery Section */}
+          <div className="mb-12">
+            <h2 className="mb-8 text-center text-2xl font-bold">Our Team</h2>
+            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto">
+              {/* Asmita Pokhrel */}
+              <Card className="overflow-hidden shadow-lg">
+                <div className="relative h-72">
+                  <Image
+                    src="/asmita-pokhrel.jpg"
+                    alt="Asmita Pokhrel - Civil Engineer"
+                    fill
+                    className="object-contain bg-slate-50"
+                  />
+                </div>
+                <CardContent className="p-4">
+                  <h3 className="mb-1 text-xl font-bold text-center">Asmita Pokhrel</h3>
+                  <p className="text-primary-500 font-semibold text-center">Civil Engineer</p>
+                </CardContent>
+              </Card>
+
+              {/* Yachu Manandhar */}
+              <Card className="overflow-hidden shadow-lg">
+                <div className="relative h-72">
+                  <Image src="/yachu-manandhar.jpg" alt="Yachu Manandhar" fill className="object-contain bg-slate-50" />
+                </div>
+                <CardContent className="p-4">
+                  <h3 className="mb-1 text-xl font-bold text-center">Yachu Manandhar</h3>
+                  <p className="text-primary-500 font-semibold text-center">Team Member</p>
+                </CardContent>
+              </Card>
+
+              {/* Srijan Kumar Shrestha */}
+              <Card className="overflow-hidden shadow-lg">
+                <div className="relative h-72">
+                  <Image
+                    src="/srijan-shrestha.jpg"
+                    alt="Srijan Kumar Shrestha"
+                    fill
+                    className="object-contain bg-slate-50"
+                  />
+                </div>
+                <CardContent className="p-4">
+                  <h3 className="mb-1 text-xl font-bold text-center">Srijan Kumar Shrestha</h3>
+                  <p className="text-primary-500 font-semibold text-center">Team Member</p>
+                </CardContent>
+              </Card>
+
+              {/* Sulav Ghimire */}
+              <Card className="overflow-hidden shadow-lg">
+                <div className="relative h-72">
+                  <Image src="/sulav-ghimire.jpg" alt="Sulav Ghimire" fill className="object-contain bg-slate-50" />
+                </div>
+                <CardContent className="p-4">
+                  <h3 className="mb-1 text-xl font-bold text-center">Sulav Ghimire</h3>
+                  <p className="text-primary-500 font-semibold text-center">Team Member</p>
+                </CardContent>
+              </Card>
             </div>
           </div>
 
@@ -137,7 +224,7 @@ export default function TeamPage() {
                 <Card>
                   <CardContent className="p-6 text-center">
                     <Award className="mx-auto mb-4 h-12 w-12 text-primary-500" />
-                    <h3 className="mb-3 text-xl font-semibold">Construction Excellence</h3>
+                    <h3 className="mb-3 text-xl font-bold text-center">Construction Excellence</h3>
                     <p className="text-muted-foreground">
                       We bring together diverse construction expertise to deliver technically superior building
                       solutions.
@@ -148,7 +235,7 @@ export default function TeamPage() {
                 <Card>
                   <CardContent className="p-6 text-center">
                     <Users className="mx-auto mb-4 h-12 w-12 text-primary-500" />
-                    <h3 className="mb-3 text-xl font-semibold">Customer Focus</h3>
+                    <h3 className="mb-3 text-xl font-bold text-center">Customer Focus</h3>
                     <p className="text-muted-foreground">
                       Every decision we make prioritizes our clients' needs and long-term satisfaction with their new
                       homes.
@@ -159,7 +246,7 @@ export default function TeamPage() {
                 <Card>
                   <CardContent className="p-6 text-center">
                     <Briefcase className="mx-auto mb-4 h-12 w-12 text-primary-500" />
-                    <h3 className="mb-3 text-xl font-semibold">Professional Standards</h3>
+                    <h3 className="mb-3 text-xl font-bold text-center">Professional Standards</h3>
                     <p className="text-muted-foreground">
                       We maintain the highest professional standards and continuous improvement in construction
                       practices.

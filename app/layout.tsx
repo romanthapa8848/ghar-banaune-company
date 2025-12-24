@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "We help families build their homes better, faster and safer.",
   keywords:
-    "ghar banaune, ghar banaune sahit, ghar banaune tarika, 2D design, 3D design, naksa pass, construction company in butwal, construction company in tilottama, Nepal home construction, residential construction Nepal, home builders Nepal, new home construction, custom homes Nepal, Butwal home construction, interior design, best construction company in nepal",
+    "ghar banaune, ghar banaune sahit, ghar banaune tarika, 2D design, 3D design, naksa pass, construction company in butwal, construction company in tilottama, Nepal home construction, residential construction Nepal, home builders Nepal, new home construction, custom homes Nepal, Butwal home construction, interior design, best construction company in nepal, ghar banau, ghar nirman company, ghar nirman sewa, nirman sewa, no. 1 construction company in nepal",
   authors: [{ name: "Ghar Banaune Company" }],
   creator: "Ghar Banaune Company",
   publisher: "Ghar Banaune Company",

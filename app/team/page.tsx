@@ -131,6 +131,22 @@ export default function TeamPage() {
                   <p className="text-primary-500 font-semibold text-center">Civil Engineer</p>
                 </CardContent>
               </Card>
+
+              {/* Umesh Chandra Jha */}
+              <Card className="overflow-hidden shadow-lg">
+                <div className="relative h-72">
+                  <Image
+                    src="/umesh-chandra-jha.jpg"
+                    alt="Umesh Chandra Jha"
+                    fill
+                    className="object-contain bg-slate-50"
+                  />
+                </div>
+                <CardContent className="p-4">
+                  <h3 className="mb-1 text-xl font-bold text-center">Umesh Chandra Jha</h3>
+                  <p className="text-primary-500 font-semibold text-center">Civil Engineer</p>
+                </CardContent>
+              </Card>
             </div>
           </div>
 

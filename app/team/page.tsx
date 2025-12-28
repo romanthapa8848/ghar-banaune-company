@@ -71,33 +71,6 @@ export default function TeamPage() {
                   </div>
                 </Card>
               </div>
-
-              {/* Asmita Pokhrel Section */}
-              <div className="mb-12">
-                <Card className="overflow-hidden shadow-xl max-w-2xl mx-auto">
-                  <div className="grid gap-6 md:grid-cols-1">
-                    <div className="relative h-80">
-                      <Image
-                        src="/asmita-pokhrel.jpg"
-                        alt="Asmita Pokhrel - Civil Engineer"
-                        fill
-                        className="object-contain bg-slate-50"
-                      />
-                    </div>
-                    <CardContent className="p-6">
-                      <div className="mb-4 text-center">
-                        <h3 className="mb-2 text-3xl font-bold">Asmita Pokhrel</h3>
-                        <p className="text-xl text-primary-500 font-semibold">Civil Engineer</p>
-                      </div>
-
-                      <p className="mb-4 text-muted-foreground text-center leading-relaxed">
-                        Asmita Pokhrel brings expertise in structural design and construction management to ensure every
-                        project meets the highest engineering standards and safety requirements.
-                      </p>
-                    </CardContent>
-                  </div>
-                </Card>
-              </div>
             </div>
           </div>
 
@@ -128,7 +101,7 @@ export default function TeamPage() {
                 </div>
                 <CardContent className="p-4">
                   <h3 className="mb-1 text-xl font-bold text-center">Yachu Manandhar</h3>
-                  <p className="text-primary-500 font-semibold text-center">Team Member</p>
+                  <p className="text-primary-500 font-semibold text-center">Civil Engineer</p>
                 </CardContent>
               </Card>
 
@@ -144,7 +117,7 @@ export default function TeamPage() {
                 </div>
                 <CardContent className="p-4">
                   <h3 className="mb-1 text-xl font-bold text-center">Srijan Kumar Shrestha</h3>
-                  <p className="text-primary-500 font-semibold text-center">Team Member</p>
+                  <p className="text-primary-500 font-semibold text-center">Civil Engineer</p>
                 </CardContent>
               </Card>
 
@@ -155,7 +128,7 @@ export default function TeamPage() {
                 </div>
                 <CardContent className="p-4">
                   <h3 className="mb-1 text-xl font-bold text-center">Sulav Ghimire</h3>
-                  <p className="text-primary-500 font-semibold text-center">Team Member</p>
+                  <p className="text-primary-500 font-semibold text-center">Civil Engineer</p>
                 </CardContent>
               </Card>
             </div>

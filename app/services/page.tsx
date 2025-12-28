@@ -36,7 +36,7 @@ export default function ServicesPage() {
             {/* Construction - Position 1 */}
             <Card className="overflow-hidden">
               <div className="relative h-48">
-                <Image src="/foundation-structure.jpg" alt="Construction" fill className="object-cover" />
+                <Image src="/construction.jpg" alt="Construction" fill className="object-cover" />
               </div>
               <CardContent className="p-6">
                 <div className="mb-4 flex items-center gap-3">
@@ -78,7 +78,7 @@ export default function ServicesPage() {
             {/* Structural Analysis - Position 3 */}
             <Card className="overflow-hidden">
               <div className="relative h-48">
-                <Image src="/wall-construction.jpg" alt="Structural Analysis" fill className="object-cover" />
+                <Image src="/structural-analysis.png" alt="Structural Analysis" fill className="object-cover" />
               </div>
               <CardContent className="p-6">
                 <div className="mb-4 flex items-center gap-3">
